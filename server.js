@@ -13,7 +13,6 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
 
 app.use(logger);
 app.use(express.json());

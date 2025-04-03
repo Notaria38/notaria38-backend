@@ -1,4 +1,4 @@
-const allowedOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(",") : [];
+const allowedOrigins = process.env.CORS_ORIGINS.split(",");
 
 const corsOptions = {
   origin: allowedOrigins,
